@@ -10,3 +10,5 @@ function truncate(str, maxlength) {
   }
   return str;
 }
+
+console.log(1)
