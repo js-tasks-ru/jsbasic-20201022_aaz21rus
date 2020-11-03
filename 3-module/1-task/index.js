@@ -2,6 +2,9 @@
  * @param   {{ name: string, age: number }[]} users
  * @returns {string[]}  объект
  */
+let usersName
+
 function namify(users) {
-  // ваш код...
+  let name = users.map(item => item.name)
+  return name
 }
