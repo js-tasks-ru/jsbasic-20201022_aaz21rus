@@ -3,6 +3,7 @@
  * @param {Element} table
  */
 function highlight(table) {
+  // console.log(table.rows);
   for (let i = 1; i < table.rows.length; i++) {
     let row = table.rows[i]
     if (row.cells[3].getAttribute('data-available') === 'true') {
